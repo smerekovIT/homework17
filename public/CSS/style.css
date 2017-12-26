@@ -1,0 +1,169 @@
+*{
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;                               /* обнуляем отступы и убираем бордюры */
+	vertical-align: baseline;          /* приводим все к одной базовой линии */
+	background: transparent;      /* чтобы не проскакивали левые фоны, установленные по умолчанию */
+	font-size: 100%;                     /* размер шрифта всем одинаковый */
+}
+
+ul{list-style-type:none;}
+
+header{
+	background:#292929;
+	overflow:hidden;
+	
+}
+.center-block-main{
+	margin:0 auto;
+	max-width:990px;
+	
+	
+}
+.logo{float:left;
+margin-top:35px;
+
+
+}
+.menu{
+	float:right;
+	list-style-type:none;
+	
+	
+	
+}
+.menu li{
+	float:left;
+font-weight:600;
+}
+	
+.menu li a{
+	text-decoration:none;
+	color:#fff;
+	padding: 50px 35px;
+	display:block;
+border-bottom:3px solid #292929;}
+	
+.menu li a:hover{
+	text-decoration:none;
+	color:#58c93a;border-bottom:3px solid #58c93a;
+	
+	
+	
+}
+main {float:left;
+width:62.5%; 
+margin-top:70px;
+}
+article{
+	margin-bottom:70px;
+	border:3px solid #c6c6c6;
+	border-radius:0 0 10px 10px;
+}
+article>header{ font-size:0;
+background:none;
+margin-bottom:10px;}
+article>h2{
+	font-size:20px; text-transform:uppercase; font-weight:600;margin:0 0 40px 20px;
+	color:#4f4e4e;
+}
+article>p{
+	margin:0 0 20px 20px;line-height:1.2;
+	
+}
+ a.more{
+	 border:2px solid #c2c2c2;
+	 padding:7px;
+	 border-radius:10px;
+	 text-decoration:none;
+	 color:#292929;
+ }
+ a:hover.more{
+	 border:2px solid #58c93a;
+	 padding:7px;
+	 border-radius:10px;
+	 text-decoration:none;
+	 color:#58c93a;
+ }
+aside {float:right;
+width:28.3%; 
+margin-top:70px;
+}
+.widget{ margin-bottom:50px;}
+.widget h2{
+	background:#f8f8f8;color:#6c6969; text-transform:uppercase; border-left:3px solid #58c93a;padding:10px 20px;margin-bottom:20px;font-weight:600;
+}
+.search{border:2px solid #6c6969;width:100%;padding:15px 20px;font-weight:600;font-size: 0.75em;}
+.widget>nav{
+	margin:0 0 0 20px;
+}
+.widget>nav ul li a{text-decoration:none;
+color:#6c6969; font-size:16px;}
+.widget>nav ul li a:hover{text-decoration:underline;
+color:#58c93a; font-size:16px;}
+.subscribe{position:relative; width:100%; height:48px;}
+.subsride-input{border:2px solid #6c6969;width:100%;padding:15px 50px 15px 15px;font-weight:600;font-size: 0.75em; box-sizing:border-box; position:absolute;}
+.subsride-image{position:absolute; right:20px; top:12px;}
+.clear{
+	clear:both;
+}
+.pager{text-transform:uppercase; border-top:2px solid #c2c2c2; padding:25px;  font-size:17px; font-weight:600;padding:50px; }
+.pager a{text-decoration:none; color:#c2c2c2; }
+.pager a:hover{text-decoration:underline; color:#58c93a;}
+.previos-link{ float:left; }
+.next-link{float:right; }
+footer{
+	background:#f8f8f8; border-top:1px solid #e1e0e0; text-align:center; font-size:14px; padding: 50px;width:100%;
+}
+footer img{margin-bottom:20px;}
+
+
+
+
+@media screen and (max-width:768px){
+	main {float:none;
+width:100%; 
+margin-top:15px;
+}
+	aside {float:none;
+width:100%; 
+margin-top:70px;
+}
+article>header img{width:100%;
+}
+article{margin-bottom:15px;}
+}
+@media screen and (max-width:650px){
+	.logo{float:none;
+margin:15px auto 0 auto;display:block;
+
+}
+.menu{float:none;margin: 10px auto;}
+.menu li a{padding:25px 15px; }
+	}
+	
+	.about-me {
+		width: 100%;
+		height: 500px;
+	}
+	.about-me h1 {
+		font-size: 35px;
+		color: red;
+		margin:10% 25%;
+	}
+	.contact {
+		font-size: 25px;
+		font-weight:bold;
+		height: 500px;
+	}
+	.adress {
+		float: left;
+		padding-left: 25px;
+
+	}
+	.number {
+		float: right;
+		padding-right: 25px;
+
+	}
